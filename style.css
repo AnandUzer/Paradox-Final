@@ -91,7 +91,7 @@ header{
     cursor: pointer;
 }
 
-@media(max-width: 480px){
+@media   (max-width: 480px){
     .menu{
         flex-direction: column;
         align-items: center;
@@ -233,6 +233,9 @@ header{
     background-color: white;
     font-size: 25px;
 
+}
+#socialMedia a i{
+    color: black;
 }
 #socialMedia i:hover{
     color: orange;
@@ -917,73 +920,72 @@ footer{
 /* Feedback Section Ends */
 
 @media (max-width: 480px) {
-    /* General Adjustments */
+
     body {
-        font-size: 14px; /* Adjust base font size */
+        font-size: 14px; 
     }
 
-    /* Top Navigation */
+    
     #top {
-        /* Stack items vertically */
-        height: auto; /* Allow height to adjust */
-        padding: 10px; /* Add padding */
-        align-items: center; /* Center items */
         
+        height: auto;
+        padding: 10px;
+        align-items: center;
     }
 
     #top img {
-        width: 60px; /* Smaller logo size */
+        width: 60px;
         height: 60px;
     }
 
     #nav {
         position: relative;
-        left: 0; /* Center nav items */
-        text-align: center; /* Center links */
+        left: 0;
+        text-align: center;
     }
 
     a {
-        font-size: 16px; /* Smaller font size for links */
-        padding: 5px 10px; /* Adjust padding */
+        font-size: 16px;
+        padding: 5px 10px;
     }
 
-    /* Search Bar */
+    
     #search {
-        font-size: 20px; /* Smaller search input */
-        width: 100%; /* Full width */
-        margin: 10px 0; /* Margin for spacing */
+        font-size: 20px;
+        width: 100%; 
+        margin: 10px 0;/
     }
 
-    /* Header Section */
+
     #header {
-        flex-direction: column; /* Stack items vertically */
-        padding-top: 30px; /* Less padding */
-        align-items: center; /* Center items */
+        flex-direction: column;
+        padding-top: 30px;
+        align-items: center;
     }
 
-    /* Right Section */
+
     #right {
-        width: 200px; /* Smaller size */
-        height: 200px; /* Smaller size */
-    }
-
-    #right::before {
-        width: 200px; /* Adjust border size */
+        width: 200px;
         height: 200px;
     }
 
-    /* Left Section */
+    #right::before {
+        width: 200px;
+        height: 200px;
+    }
+
+    
     #left h1 {
-        font-size: 36px; /* Smaller heading */
+        font-size: 36px;
     }
 
     #left p {
-        font-size: 18px; /* Adjust paragraph size */
+        font-size: 18px;
     }
 
     #left button {
-        width: 100px; /* Smaller button */
-        font-size: 12px; /* Adjust font size */
+        width: 100px;
+        font-size: 12px;
     }
     #left button a{
         text-decoration: none;
@@ -991,39 +993,39 @@ footer{
         font-size: 12px;
     }
 
-    /* Social Media */
+    
     #socialMedia {
         display: none;
-        width: 100%; /* Full width */
-        flex-direction: row; /* Arrange icons in a row */
-        justify-content: center; /* Center icons */
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
     }
 
     #socialMedia i {
-        font-size: 20px; /* Smaller icons */
+        font-size: 20px;
     }
 
-    /* Food Icons */
+
     #food1, #food2 {
-        width: 70px; /* Smaller food icons */
+        width: 70px;
         height: 70px;
     }
 
-    /* Menu Lists */
+
     #mainMenuList {
-        flex-direction: column; /* Stack items vertically */
-        margin: 0; /* Reset margin */
+        flex-direction: column;
+        margin: 0;
     }
 
     #listContainer {
-        flex-direction: column; /* Stack menu items vertically */
-        margin: 0; /* Reset margin */
+        flex-direction: column;
+        margin: 0;
     }
 
     #listContainer img {
-        width: 90%; /* Full width for images */
+        width: 90%;
         margin: 10px auto;
-        margin-bottom: 10px; /* Space between images */
+        margin-bottom: 10px;
         height: 400px;
 
     }
@@ -1031,10 +1033,10 @@ footer{
         margin-top: 10px;
     }
 
-    /* Best Offer Section */
+
     #bestOffer {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items */
+        flex-direction: column; 
+        align-items: center; 
     }
     #bestOffer {
         margin: 10px 50px 0 50px;
@@ -1044,16 +1046,16 @@ footer{
     }
 
     #bestOfferContent {
-        width: 90%; /* Full width */
-        margin: 10px 0; /* Adjust margin */
+        width: 90%; 
+        margin: 10px 0;
     }
     #bestOfferImg{
         width: 22rem;
     }
 
     #bestOfferImg img {
-        width: 100%; /* Full width for best offer image */
-        height: 300px; /* Maintain aspect ratio */
+        width: 100%;
+        height: 300px;
     }
 
     #menuDescription{
@@ -1073,7 +1075,7 @@ footer{
     .mainMenuListimg{
         width:100%;
     
-        /* border: 2px solid; */
+
         padding: 40px;
     }
     .mainMenuListimg img{
@@ -1175,32 +1177,32 @@ footer{
     }
 
 
-    /* Order Contact Details */
+
     #orderFood {
-        flex-direction: column; /* Stack content vertically */
-        height: auto; /* Allow height to adjust */
-        text-align: center; /* Center text */
-        padding: 20px; /* Add padding */
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 20px;
     }
 
-    /* Gallery Section */
+
     #imageListContainer {
-       margin: 0 20px; /* Adjust margins */
-        padding: 20px 0; /* Add padding */
+       margin: 0 20px;
+        padding: 20px 0;
         position: relative;
         left: 0px;
     }
 
     #imageListContainer img {
-        width: 32%; /* Full width images */
-        height: 200px; /* Maintain aspect ratio */
+        width: 32%;
+        height: 200px; 
     }
     #wholeContainer{
         overflow: hidden; 
     }
     
 
-    /* Testimonials */
+    
     .testimonials {
         padding-top: 30px;
         text-align: left;
@@ -1210,34 +1212,34 @@ footer{
     }
 
     .testimonials-col {
-        width: 90%; /* Full width for testimonials */
-        margin: 10px auto; /* Center testimonials */
-        padding: 15px; /* Add padding */
+        width: 90%; 
+        margin: 10px auto;
+        padding: 15px;
         border-radius: 10px;
     }
 
     .testimonials-col img {
-        height: 40px; /* Smaller image */
+        height: 40px;
     }
 
-    /* Footer */
+
     #footer #footerContent {
-        padding-top: 80px; /* Less padding */
-        padding-bottom: 40px; /* Less padding */
+        padding-top: 80px;
+        padding-bottom: 40px;
     }
     #footer #footerContent img{
         margin-top: 0;
     }
 
     footer {
-        font-size: 20px; /* Smaller footer font size */
+        font-size: 20px;
     }
 }
 
 
 
 
-/*    Tablet Layout */
+
 
 @media (min-width:481px) and (max-width:768px) {
     #bestOffer{
@@ -1299,7 +1301,7 @@ footer{
 }
  
 
-@media (min-width:100px) and (max-width:375px) {
+@media (max-width:374px){
     .mainMenuListChildDiv #pizza2{
         position:relative;
         left: 200px;
@@ -1327,6 +1329,152 @@ footer{
     #mainMenucontainer #ourMenu{
         margin: 20px 0;
         padding: 0;
+        margin-top: 0;
+    }
+    #listContainer img{
+        height:250px;
+        border-radius: 20px; 
+    }
+    #bestOfferContent h1:nth-child(1){
+        font-size: 25px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    #bestOfferContent h1:nth-child(2){
+        font-size: 25px;
+        margin:0;
+        padding:0;
+    }
+    #bestOfferContent h2{
+        color: gray;
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+        
+    }
+    #bestOfferContent button{
+        background-color: orange;
+        color: white;
+        padding: 0px 17px;
+        border-radius: 10px;
+        font-weight: bold;
+        margin: 0;
+    }
+    #bestOfferImg{
+        border-radius: 10px;
+        padding:0 60px;
+    }
+    #menuDescription{
+        margin-top: 20px; 
+        height: 100px; 
+    }
+    .mainMenuListimg img{
+        width: 100%;
+        height:250px;    
+    }
+    .mainMenuListChildDiv #pizza2 {
+        position: relative;
+        left:150px;
+        top: 10px;  
+    }
+    .mainMenuListChildDiv #pizza1 {
+        position: absolute;
+        right: 120px;
+        top: 10px;  
+    }
+    .mainMenuListChildDiv #pizza4 {
+        position: absolute;
+        left: 150px;
+        top: 250px;  
+    }
+    .mainMenuListChildDiv #pizza3 {
+        position: absolute;
+        left: 15px;
+        top: 250px;  
+    }
+    #footer #footerContent i{
+        font-size: 28px;
+        margin-left: 10px;
+    }
+    #footer #footerContent{
+        padding-bottom: 10px;
+    }
+    #footer #footerContent img{
+        position: absolute;
+        left: 40%;
+    }
+    #footer #footerContent h3{
+        font-size: 18px;
+        margin: 0;
+    }
+    footer{
+        padding: 10px 0;
+    }
+    #galleryMainContainer #ourGallery{
+        margin: 0px 0;
+        padding: 0;
+    }
+    #galleryMainContainer #ourGallery h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    #imageListContainer img{
+        height:150px;
+        padding: 2px;
+        border-radius: 20px;
+    }
+    .testimonials h1{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .testimonials p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .testimonials{
+        height: auto;
+    }
+    .testimonials-col div p{
+        text-align: left;
+    }
+    
+
+
+}
+
+
+
+
+@media (min-width:375px) and (max-width:385px){
+    .mainMenuListChildDiv #pizza2{
+        position:relative;
+        left: 200px;
+        top: 10px;  
+    } 
+    .mainMenuListChildDiv #pizza4{
+        position:absolute;
+        left: 200px;
+        top: 250px;  
+    } 
+    #footer #footerContent img{
+        position: absolute;
+        top:0px;
+        left:43%;
+    }
+    #menu #food1, #menu #food2 {
+        width: 70px;
+        height: 40px;
+        margin: 0;
+    }
+    #header{
+        font-size: 13px;
+        padding-left: 20px;
+    }
+    #mainMenucontainer #ourMenu{
+        margin: 20px 0;
+        padding: 0;
+        margin-top: 0;
     }
     #listContainer img{
         height:250px;
@@ -1371,22 +1519,22 @@ footer{
     }
     .mainMenuListChildDiv #pizza2 {
         position: absolute;
-        left: 150px;
+        left: 200px;
         top: 10px;  
     }
     .mainMenuListChildDiv #pizza1 {
         position: absolute;
-        right: 120px;
+        right: 170px;
         top: 10px;  
     }
     .mainMenuListChildDiv #pizza4 {
         position: absolute;
-        left: 150px;
+        left: 200px;
         top: 250px;  
     }
     .mainMenuListChildDiv #pizza3 {
         position: absolute;
-        left: 15px;
+        left: 30px;
         top: 250px;  
     }
     #footer #footerContent i{
