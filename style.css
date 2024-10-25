@@ -1299,7 +1299,7 @@ footer{
 }
  
 
-/* @media (min-width:100px) and (max-width:375px) {
+@media (min-width:100px) and (max-width:375px) {
     .mainMenuListChildDiv #pizza2{
         position:relative;
         left: 200px;
@@ -1438,4 +1438,4 @@ footer{
     
 
 
-} */
+}

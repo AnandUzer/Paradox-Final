@@ -432,7 +432,7 @@ footer{
     }
 }
 
-/* @media (min-width:100px) and (max-width:380px){
+@media (min-width:100px) and (max-width:380px){
     #footer #footerContent i{
         font-size: 28px;
         margin-left: 10px;
@@ -502,4 +502,4 @@ footer{
         position: relative;
         right: 35px;
     }
-} */
+}

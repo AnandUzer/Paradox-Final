@@ -493,7 +493,7 @@ footer {
   }
 }
 
-/* @media (min-width:100px) and (max-width:375px){
+@media (min-width:100px) and (max-width:375px){
   #footer #footerContent i{
     font-size: 28px;
     margin-left: 10px;
@@ -568,4 +568,4 @@ footer{
     margin-top: 20px;
   }
 
-} */
+}
