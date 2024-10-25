@@ -470,7 +470,7 @@ footer{
   }
 }
 
-@media (max-width:385px){
+@media (max-width:375px){
   #footer #footerContent i{
     font-size: 28px;
     margin-left: 10px;
@@ -498,6 +498,70 @@ footer{
     right:150px;
     margin: 0 50px;
     padding: 130px;
+ 
+  }
+  #para p{
+    margin: 0 0;
+    text-align: justify;
+    font-size: 15px;
+  }
+  #para h2{
+    color: #FF0000;
+    margin: 0 auto;
+  }
+  #div0{
+    position: relative;
+    bottom: 100px;
+  }
+  #div0 img{
+    height: 200px;
+  }
+  
+  .second #div1,  #div2,  #div3,  #div4{
+    padding: 0 30px;
+    position: relative;
+    bottom: 0px;
+    margin-top: 0;
+  }
+  .second #div4{
+    height: 350px;
+  }
+  footer{
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+
+}
+
+@media (min-width:376px) and (max-width:385px){
+  #footer #footerContent i{
+    font-size: 28px;
+    margin-left: 10px;
+}
+#footer #footerContent{
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+#footer #footerContent img{
+    position: absolute;
+    left: 40%;
+}
+#footer #footerContent h3{
+    font-size: 18px;
+    margin: 0;
+}
+footer{
+    padding: 10px 0;
+}
+  #para{
+    position: relative;
+    bottom:80px ;
+    margin-top: 0;
+    padding-top: 0;
+    right:50px;
+    margin: 0 0px;
+    padding: 130px 90px 0 90px;
  
   }
   #para p{
