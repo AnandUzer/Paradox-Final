@@ -467,7 +467,7 @@ footer{
   }
 }
 
-@media (min-width:100px) and (max-width:375px){
+/* @media (min-width:100px) and (max-width:375px){
   #footer #footerContent i{
     font-size: 28px;
     margin-left: 10px;
@@ -513,11 +513,7 @@ footer{
   #div0 img{
     height: 200px;
   }
-  /* .second{
-    position: relative;
-    bottom: 130px;
-    height: auto;
-  } */
+  
   .second #div1,  #div2,  #div3,  #div4{
     padding: 0 30px;
     position: relative;
@@ -533,4 +529,4 @@ footer{
   }
 
 
-}
+} */
