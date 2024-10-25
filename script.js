@@ -3,11 +3,11 @@ let food2 = document.getElementById("food2");
 let right = document.getElementById("right");
 
 food1.addEventListener("click",()=>{
-    right.style.backgroundImage="url('food1.jpg')";
+    right.style.backgroundImage="url('food1.webp')";
 });
 
 food2.addEventListener("click",()=>{
-    right.style.backgroundImage="url('food2.jpg')";
+    right.style.backgroundImage="url('food2.webp')";
 });
 
 // function showSlidebar() {

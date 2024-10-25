@@ -162,7 +162,7 @@ header{
 #right{
     width: 350px;
     height: 350px;
-    background-image: url('first.jpg');
+    background-image: url('first.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -308,12 +308,12 @@ header{
     margin: 0 20px;
 }
 #food1{
-    background-image: url('food1.jpg');
+    background-image: url('food1.webp');
     background-repeat: no-repeat;
     background-position: center;
 }
 #food2{
-    background-image: url('food2.jpg');
+    background-image: url('food2.webp');
     background-repeat: no-repeat;
     background-position: center;
 }
